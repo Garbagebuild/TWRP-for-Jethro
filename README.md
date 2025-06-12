@@ -49,9 +49,9 @@ This custom recovery enables advanced Android maintenance features such as rooti
    adb reboot bootloader
    volume up...then volume down.
 3. Flash TWRP:
-   fastboot flash recovery recovery.img
-   fastboot reboot
-   adb reboot recovery.
+   /fastboot flash recovery recovery.img
+   /fastboot reboot
+   /adb reboot recovery...
    boots to recovery.  You have temporary root.
 
    PS:  The touch screen doesnt work but fortunately we still get adb root.  I have not confirmed OTG mouse works on this phone, although if you do confirm this, please post it in issues.
