@@ -16,21 +16,20 @@ This custom recovery enables advanced Android maintenance features such as rooti
 
 ## 🔥 Features
 
-✅ Full touch support  
 ✅ ADB & MTP enabled  
 ✅ Support for flashing ZIPs & images  
 ✅ Mount/unmount partitions  
 ✅ Terminal access  
 ✅ Backup & restore (NANDroid)  
 ✅ Built-in file manager  
-✅ Encryption-aware (if supported by ROM)
+
 
 ---
 
 ## 📁 Files Included
 
 - `recovery.img` – Custom TWRP recovery image (boot into this using fastboot or SP Flash Tool)
-- (Optional) `scatter.txt` – SP Flash Tool scatter file if flashing via SPFT
+- (Optional) `MT6739_Android_scatter.txt` – SP Flash Tool scatter file if flashing via SPFT
 
 ---
 
@@ -51,4 +50,7 @@ This custom recovery enables advanced Android maintenance features such as rooti
 3. Flash TWRP
 fastboot flash recovery recovery.img
 fastboot reboot
-
+quickly holld volume up + power (d-pad up + red button)
+or wait till device is rebooted hold power until power down option appears, power down...boot up and fhold power + volume up.
+once in options screen you see recovery, fastboot, normal boot.  Volume down once. boots to recovery.  You have temporary root.
+PS:  The touch screen doesnt work but fortunately we still get adb root.  I have not confirmed OTG mouse works on this phone, although if you do confirm this, please post it in issues.
