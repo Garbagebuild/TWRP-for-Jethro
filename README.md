@@ -37,7 +37,7 @@ This custom recovery enables advanced Android maintenance features such as rooti
 
 > ⚠️ **Unlocking bootloader & flashing recovery can void your warranty and brick your device if done incorrectly.**  
 > Proceed only if you understand the risks. Backup your data and **DO NOT** flash incorrect images or overwrite preloader/modem/tee unless you know what you’re doing.
-
+Did you brick your phone?  I am here to help.  The firmware is https://github.com/Garbagebuild/SC490-Jethro-Firmware here.
 ---
 
 ## 🛠 Installation Guide
