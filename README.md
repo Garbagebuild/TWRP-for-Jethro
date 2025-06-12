@@ -50,7 +50,6 @@ This custom recovery enables advanced Android maintenance features such as rooti
 3. Flash TWRP
 fastboot flash recovery recovery.img
 fastboot reboot
-quickly holld volume up + power (d-pad up + red button)
-or wait till device is rebooted hold power until power down option appears, power down...boot up and fhold power + volume up.
-once in options screen you see recovery, fastboot, normal boot.  Volume down once. boots to recovery.  You have temporary root.
+adb reboot recovery.
+boots to recovery.  You have temporary root.
 PS:  The touch screen doesnt work but fortunately we still get adb root.  I have not confirmed OTG mouse works on this phone, although if you do confirm this, please post it in issues.
